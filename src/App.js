@@ -3,7 +3,7 @@
 function App() {
   return (
     <div className="App">
-      this is our first project.
+      this is our first manal project.
     </div>
   );
 }

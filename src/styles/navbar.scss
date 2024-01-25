@@ -1,0 +1,159 @@
+@import 'primary';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tdm{
+    color: $color-primary;
+    font-size: larger;
+    font-weight: 600;
+}
+.second-line{
+    background-color: $color-primary;
+    display: flex;
+    justify-content:space-around ;
+    height: 2.4rem;
+    font-weight: 600;
+    color: $color-secondary;
+}
+.icons{
+    font-size: larger;
+    align-items: baseline;
+    margin-right: 5px;
+}
+.second-line-first {
+
+    display: flex;
+    padding-top: .5rem;
+
+}
+.second-line-second {
+    display: flex;
+    padding-top: .5rem;
+    margin-inline: 2rem;
+}
+.flex{
+    display: flex;
+    margin-top: 2px;
+    margin-inline: 2rem;
+    font-size: medium;
+}
+.mob{
+    height: fit-content;
+    width: 8rem;
+    border-right: 2px solid gray;
+}
+.icon-phn{
+    font-size: 1rem;
+}
+.icons1{
+    font-size: larger;
+    margin-inline: .6rem;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .logo-header {
+    float: left;
+  }
+  
+  .logo-dark {
+    a {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+  .extra-nav {
+    float: right;
+  }
+  
+  .extra-cell {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+  
+  .info-content {
+    h6 {
+      margin-bottom: 0;
+    }
+  }
+  
+  .header-search-nav {
+    position: relative;
+    float: right;
+  }
+  
+  .search-input {
+    position: relative;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+  }
+  
+  .list-group {
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  .bg-dark {
+    background-color: #343a40 !important;
+  }

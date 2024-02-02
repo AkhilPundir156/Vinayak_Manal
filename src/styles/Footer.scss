@@ -1,7 +1,10 @@
+@import 'primary.scss';
 footer {
-  background-color: #343333;
+  background-color: $color-primary;
   color: #fff;
   padding: 40px;
+  padding-bottom: 0;
+  margin-top: -4px;
 
   .top-footer {
     display: flex;
@@ -21,7 +24,7 @@ footer {
   }
 }
 
-.services {
+.footer-services {
   display: flex;
   justify-content: space-between;
 }
@@ -49,10 +52,20 @@ ul {
   }
 
   .down-footer {
-    // Add styling for the down-footer section if needed
     padding: 0 5%;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
     }
+}
+.footer-icons{
+  display: flex;
+  font-size: x-large;
+  >li{
+    text-decoration: none;
+    
+    padding: 5px;
+    
+    margin-top: 0;
+  }
 }

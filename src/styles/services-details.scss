@@ -1,0 +1,131 @@
+@import "primary";
+
+.services-details-main{
+    display: flex;
+    flex-wrap: wrap;
+    >.services-details-item{
+        >img{
+            // width: 500px;
+            // height: 500px;
+            width: 100%;
+        }
+        width: 33%;
+        padding: 2rem;
+        padding-right: 0;
+        padding-top: 0;
+        >.services-item-heading{
+            // padding-right: 0;
+            padding-top: 0;
+            >h1{
+                padding-bottom: .7rem;
+                color: $color-primary;
+                font-weight: bold;
+            }
+            >p{
+                padding-top: 2%;
+            }
+        }
+        >.services-item-main{
+            // padding-right: 0;
+            padding-top: 2%;
+            font-size: large;
+            font-weight: bold;
+            color: rgb(74, 74, 74);
+            line-height: 1.8rem;
+            >span{
+                text-decoration: line-through;
+            }
+            
+            >p{
+                padding-top: 2%;
+                font-size: large;
+            }
+            >h2{
+                color: $color-primary;
+                padding: 1rem;
+                padding-inline: 0;
+            }
+            >.services-item-p{
+                background-color: black;
+                color: white;
+                width: fit-content;
+                line-height: normal;
+                padding-top: 0;
+                font-weight: 300;
+                text-transform: uppercase;
+                padding-inline: .7rem;
+                font-size: medium;
+                ::selection{
+                    color: $color-primary;
+                    background-color: black;
+                }
+
+            }
+        }
+        
+    }
+}
+
+.services-input {
+    display: flex;
+    justify-content: center;
+    
+    .services-input-sec {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+  
+      input {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+  
+        &:focus {
+          border-color: $color-primary;
+        }
+      }
+      label {
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      button {
+        padding: 10px;
+        background-color: $color-primary;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #d52a3e;
+        }
+      }
+    }
+  }
+
+  .services-details-bottom{
+    width: 50%;
+    padding-left: 5%;
+    font-size: medium;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    >button{
+        padding: 10px;
+        background-color: $color-primary;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-bottom: 1rem;
+  
+        &:hover {
+          background-color: #d52a3e;
+        }
+    }
+  }
+  
+  

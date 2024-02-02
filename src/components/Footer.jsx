@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaTwitterSquare,FaInstagramSquare } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
       </div>
       <div >
         <h1>SERVICES</h1>
-        <div className='services'>
+        <div className='footer-services'>
         <div>
           <ul>
             <li><a><span>Startup</span></a></li>
@@ -40,8 +41,8 @@ const Footer = () => {
         <h1>USAGE</h1>
         <div>
           <ul>
-            <li><a><span>Terms & Conditions</span></a></li>
-            <li><a><span>Privacy Policy</span></a></li>
+            <li><Link  to="companytc" ><span>Terms & Conditions</span></Link></li>
+            <li><Link  to="privacypolicy" ><span>Privacy Policy</span></Link></li>
             <li><a><span>Refund Policy</span></a></li>
           </ul>
         </div>
@@ -50,12 +51,12 @@ const Footer = () => {
         <h1>USAGE</h1>
         <div>
           <ul>
-            <li><a><span>Confidentiality Policy</span></a></li>
-            <li><a><span>Disclaimer Policy</span></a></li>
+            <li><span>Confidentiality Policy</span></li>
+            <li><Link  to="disclaimer" ><span>Disclaimer Policy</span></Link></li>
             <li><a><span>Vinayak Review</span></a> </li>
             <li><a><span>Online Payment</span></a> </li>
             <li><a><span>Careers</span></a> </li>
-            <li><a><span>Contact Us</span></a></li>
+            <li><Link to="contactus"><span>Contact Us</span></Link></li>
           </ul>
         </div>
       </div>
@@ -64,11 +65,11 @@ const Footer = () => {
       <div>
       Copyright &copy; 2023 | Rizrv | Powered by Manal Softech Pvt Ltd | All rights reserved.
       </div>
-      <div>
-        <ul>
-          <li><FaFacebookSquare /></li>
-          <li><FaTwitterSquare /></li>
-          <li><FaInstagramSquare /></li>
+      <div className='footer-icon-div'>
+        <ul className='footer-icons'>
+          <li> <a href="" target="_blank" rel="noopener noreferrer"> <FaFacebookSquare /></a></li>
+          <li><a href="" target="_blank" rel="noopener noreferrer"><FaTwitterSquare /></a></li>
+          <li><a href="" target="_blank" rel="noopener noreferrer"><FaInstagramSquare /></a></li>
         </ul>
       </div>
       </div>

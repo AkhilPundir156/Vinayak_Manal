@@ -1,0 +1,85 @@
+// TermsAndConditions.scss
+
+$main-color: #990011; // Your specified color
+
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333; /* Adjust text color as needed */
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  color: $main-color;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+
+  &-title {
+    color: $main-color;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
+
+.intro {
+  font-style: italic;
+}
+
+// PrivacyPolicy.scss
+
+// $main-color: green; // Your specified color
+
+.privacy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333; /* Adjust text color as needed */
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  color: $main-color;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+
+  &-title {
+    color: $main-color;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+    &:before {
+      content: '\2022'; /* Add bullet point */
+      color: $main-color;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+}
